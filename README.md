@@ -98,8 +98,7 @@ plt.show()
 ```
 
 ✅ Output:
-![Alt text](![image](https://github.com/user-attachments/assets/0d4e8d3d-7a81-4f79-9a14-6b14a0869e39)
-)
+![image](https://github.com/user-attachments/assets/0d4e8d3d-7a81-4f79-9a14-6b14a0869e39)
 
 ![Alt text](image-url)
 
