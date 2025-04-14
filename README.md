@@ -31,8 +31,28 @@ df.columns
 ```
 
 <pre>
-# Output will show the first few rows, data types, summary stats,
-# total duplicates, and column names.
+  <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 891 entries, 0 to 890
+Data columns (total 12 columns):
+ #   Column       Non-Null Count  Dtype  
+---  ------       --------------  -----  
+ 0   PassengerId  891 non-null    int64  
+ 1   Survived     891 non-null    int64  
+ 2   Pclass       891 non-null    int64  
+ 3   Name         891 non-null    object 
+ 4   Sex          891 non-null    object 
+ 5   Age          714 non-null    float64
+ 6   SibSp        891 non-null    int64  
+ 7   Parch        891 non-null    int64  
+ 8   Ticket       891 non-null    object 
+ 9   Fare         891 non-null    float64
+ 10  Cabin        204 non-null    object 
+ 11  Embarked     889 non-null    object 
+dtypes: float64(2), int64(5), object(5)
+memory usage: 83.7+ KB
+Index(['PassengerId', 'Survived', 'Pclass', 'Name', 'Sex', 'Age', 'SibSp',
+       'Parch', 'Ticket', 'Fare', 'Cabin', 'Embarked'],
+      dtype='object')
 </pre>
 
 ---
@@ -44,7 +64,21 @@ df.isnull().sum()
 ```
 
 <pre>
-# Output will show null counts in Age, Cabin, and Embarked columns.
+            0
+PassengerId	0
+Survived	  0
+Pclass	    0
+Name	      0
+Sex        	0
+Age        	177
+SibSp	      0
+Parch	      0
+Ticket	    0
+Fare	      0
+Cabin	      687
+Embarked   	2
+
+dtype: int64
 </pre>
 
 ---
@@ -64,12 +98,12 @@ plt.show()
 ```
 
 ✅ Output:
+![Alt text](![image](https://github.com/user-attachments/assets/0d4e8d3d-7a81-4f79-9a14-6b14a0869e39)
+)
 
-**Survival Count**
-<img src="data:image/png;base64,...1" style="max-width: 100%; height: auto;">
+![Alt text](image-url)
 
-**Fare Boxplot**
-<img src="data:image/png;base64,...2" style="max-width: 100%; height: auto;">
+
 
 ---
 
@@ -88,12 +122,10 @@ plt.show()
 ```
 
 ✅ Output:
+![Alt text](image-url)
 
-**Survival by Gender**
-<img src="data:image/png;base64,...3" style="max-width: 100%; height: auto;">
+![Alt text](image-url)
 
-**Age vs Fare**
-<img src="data:image/png;base64,...4" style="max-width: 100%; height: auto;">
 
 ---
 
@@ -113,12 +145,11 @@ plt.show()
 ```
 
 ✅ Output:
+![Alt text](image-url)
 
-**Pairplot**
-<img src="data:image/png;base64,...5" style="max-width: 100%; height: auto;">
 
-**Heatmap**
-<img src="data:image/png;base64,...6" style="max-width: 100%; height: auto;">
+![Alt text](image-url)
+
 
 ---
 
