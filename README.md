@@ -75,7 +75,7 @@ plt.title('Fare Distribution - BoxPlot')
 plt.show()
 ```
 
-Insights:
+
 ![image](https://github.com/user-attachments/assets/0d4e8d3d-7a81-4f79-9a14-6b14a0869e39)
 
 ![image](https://github.com/user-attachments/assets/014bf5c0-9ac3-49e2-9e92-39492c91ea63)
@@ -97,10 +97,9 @@ plt.title('Age vs Fare by Gender')
 plt.show()
 ```
 
-Observations:
-- **Females** had a higher survival rate than males.
-- Fare and age don't show a clear linear trend, but higher fares seem to correlate with higher survival.
 
+![image](https://github.com/user-attachments/assets/d873e3ce-6308-42d5-925d-a08062ddc68f)
+![image](https://github.com/user-attachments/assets/079f99c4-319c-4a38-8583-9d21f2b26763)
 ---
 
 ### **6. 🔁 Multivariate Analysis**
@@ -120,10 +119,8 @@ plt.title("Correlation Heatmap")
 plt.show()
 ```
 
-Key takeaways:
-- Positive correlation between **SibSp**, **Parch**, and survival (family presence slightly improves chances).
-- **Fare** also has a positive correlation with survival.
-
+![image](https://github.com/user-attachments/assets/04f8cce5-5f51-438e-a208-9abb2dfc4e41)
+![image](https://github.com/user-attachments/assets/60d1a8de-bf9c-4a1e-afa7-f931f99f2ac7)
 ---
 
 ### **7. 🛠️ Handling Missing Values**
