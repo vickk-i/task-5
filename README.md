@@ -76,9 +76,9 @@ plt.show()
 ```
 
 Insights:
-- More passengers did **not survive**.
-- **Fare** distribution is highly skewed with many lower-fare entries and some extreme outliers.
+![image](https://github.com/user-attachments/assets/0d4e8d3d-7a81-4f79-9a14-6b14a0869e39)
 
+![image](https://github.com/user-attachments/assets/014bf5c0-9ac3-49e2-9e92-39492c91ea63)
 ---
 
 ### **5. 👫 Bivariate Analysis**
