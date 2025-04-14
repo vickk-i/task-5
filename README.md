@@ -100,7 +100,7 @@ plt.show()
 ✅ Output:
 ![image](https://github.com/user-attachments/assets/0d4e8d3d-7a81-4f79-9a14-6b14a0869e39)
 
-![Alt text](image-url)
+![image](https://github.com/user-attachments/assets/014bf5c0-9ac3-49e2-9e92-39492c91ea63)
 
 
 
@@ -121,9 +121,9 @@ plt.show()
 ```
 
 ✅ Output:
-![Alt text](image-url)
+![image](https://github.com/user-attachments/assets/d873e3ce-6308-42d5-925d-a08062ddc68f)
 
-![Alt text](image-url)
+![image](https://github.com/user-attachments/assets/079f99c4-319c-4a38-8583-9d21f2b26763)
 
 
 ---
@@ -144,10 +144,10 @@ plt.show()
 ```
 
 ✅ Output:
-![Alt text](image-url)
+![image](https://github.com/user-attachments/assets/04f8cce5-5f51-438e-a208-9abb2dfc4e41)
 
 
-![Alt text](image-url)
+![image](https://github.com/user-attachments/assets/60d1a8de-bf9c-4a1e-afa7-f931f99f2ac7)
 
 
 ---
@@ -169,7 +169,8 @@ df['Age'].skew()
 ```
 
 <pre>
-# Output: Value representing the skewness of Age distribution
+✅ Output:
+np.float64(0.5102446555756495)
 </pre>
 
 ---
